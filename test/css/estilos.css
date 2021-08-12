@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+#noticias{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 16px;
+}
+
+.carta{
+    width: 20%;
+    background-color: rgb(255, 249, 168);
+    padding: 16px;
+    border-radius: 8px;
+}
+
+.carta__imagen{
+    width: 100%;
+}
+
+.carta__veraqui{
+    margin-top: 16px;
+    background-color: rgb(178, 255, 142);
+    border: none;
+    padding: 8px;
+    border-radius: 4px;
+}
+
+.carta__titulo{
+    margin-bottom: 8px;
+}
+
+.carta__veraqui:hover{
+    background-color: rgb(145, 235, 104);
+}
